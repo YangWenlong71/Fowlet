@@ -1,6 +1,13 @@
 这个目前是搭配后端来写的，个人的话可能定制不了
 
 
+-软件截图-
+
+http://www.owlsmart.net/image/01.jpg
+http://www.owlsmart.net/image/02.jpg
+http://www.owlsmart.net/image/03.jpg
+http://www.owlsmart.net/image/04.jpg
+   
 -更新日志-
 
 2021年12月07日：V1.0.3
