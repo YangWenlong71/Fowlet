@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f5f5f5"
+    tools:context=".ui.userActivity">
+
+    <LinearLayout
+        android:elevation="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:id="@+id/tv_uuid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="UUID"
+            android:textColor="#525A65"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:padding="8dp" />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+
+
+        <Button
+            android:gravity="center_vertical"
+            android:padding="6dp"
+            android:drawableRight="@drawable/ic_right"
+            android:background="#ffffff"
+            android:id="@+id/btn_collect"
+            android:text="我的收藏"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:gravity="center_vertical"
+            android:padding="6dp"
+            android:drawableRight="@drawable/ic_right"
+            android:background="#ffffff"
+            android:id="@+id/btn_history"
+            android:text="清空历史搜索"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+
+        <Button
+            android:gravity="center_vertical"
+            android:padding="6dp"
+            android:drawableRight="@drawable/ic_right"
+            android:background="#ffffff"
+            android:id="@+id/btn_image"
+            android:text="TV-相册选择二维码"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:gravity="center_vertical"
+            android:padding="6dp"
+            android:drawableRight="@drawable/ic_right"
+            android:background="#ffffff"
+            android:id="@+id/btn_tv"
+            android:text="TV-手机扫码"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+
+
+
+        <Button
+            android:gravity="center_vertical"
+            android:padding="6dp"
+            android:drawableRight="@drawable/ic_right"
+            android:background="#ffffff"
+            android:id="@+id/btn_replace"
+            android:text="切换账号"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:gravity="center_vertical"
+            android:padding="6dp"
+            android:drawableRight="@drawable/ic_right"
+            android:background="#ffffff"
+            android:id="@+id/btn_exit"
+            android:text="退出登陆"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        <TextView
+            android:textStyle="bold"
+            android:elevation="2dp"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:background="@drawable/round_corner_ff"
+            android:text="软件未添加任何推送更新服务，实时获取最新版本，建议添加以下qq群或者收藏本站，走丢不管哈\n\nQQ群1：170259191\n\nQQ群2：785972534\n\nQQ群3：320130296\n\n下载官网：www.owlsmart.net"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

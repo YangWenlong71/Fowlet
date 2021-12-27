@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">猫头鹰</string>
+
+
+    <string name="des">等待加载</string>
+    <string name="actor">等待加载</string>
+
+    <string name="start">开始</string>
+
+
+</resources>

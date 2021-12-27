@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: xyz.doikki.android.dkplayer:dkplayer-java:3.3.5@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/af7f7257d1e546c733fc366f37296bcc/jetified-dkplayer-java-3.3.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/af7f7257d1e546c733fc366f37296bcc/jetified-dkplayer-java-3.3.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/af7f7257d1e546c733fc366f37296bcc/jetified-dkplayer-java-3.3.5/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/af7f7257d1e546c733fc366f37296bcc/jetified-dkplayer-java-3.3.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/af7f7257d1e546c733fc366f37296bcc/jetified-dkplayer-java-3.3.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/af7f7257d1e546c733fc366f37296bcc/jetified-dkplayer-java-3.3.5/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/xyz.doikki.android.dkplayer/dkplayer-java/3.3.5/4aa2ef5dd3c3377206f8bc718f82e0ec41ca344b/dkplayer-java-3.3.5-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/xyz.doikki.android.dkplayer/dkplayer-java/3.3.5/4aa2ef5dd3c3377206f8bc718f82e0ec41ca344b/dkplayer-java-3.3.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f5f5f5"
+    tools:context=".ui.playerActivity">
+
+    <LinearLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:padding="8dp"
+            android:id="@+id/iv_back"
+            android:src="@drawable/ic_back"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"/>
+        <TextView
+            android:textColor="#2c2c2c"
+            android:textSize="17dp"
+            android:gravity="center_vertical"
+            android:id="@+id/tv_video_title"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:minLines="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:padding="8dp"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+
+    <xyz.doikki.videoplayer.player.VideoView
+        android:id="@+id/doikki_player"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        />
+
+    <LinearLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include layout="@layout/layout_player_info" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <ImageView
+            android:padding="5dp"
+            android:id="@+id/iv_collect"
+            android:src="@drawable/ic_collect"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"/>
+
+        <View
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:elevation="0.2dp"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="18dp">
+
+        <TextView
+            android:text="收藏"
+            android:textSize="10dp"
+            android:gravity="center_horizontal"
+            android:src="@drawable/ic_collect"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"/>
+
+        <View
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

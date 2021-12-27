@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:background="#ffffff"
+            android:layout_margin="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:padding="6dp">
+
+
+            <TextView
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="@string/app_name"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:id="@+id/tv_player_name"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="17dp" />
+
+            <TextView
+                android:textStyle="italic"
+                android:paddingLeft="10dp"
+                android:text="@string/app_name"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:id="@+id/tv_player_type"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#bfbfbf" />
+
+            <TextView
+                android:id="@+id/tv_player_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_player_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <ImageView
+                android:src="@drawable/ic_right"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"/>
+            </LinearLayout>
+
+</LinearLayout>

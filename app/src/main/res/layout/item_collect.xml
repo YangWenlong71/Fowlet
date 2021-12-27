@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:background="#ffffff"
+            android:layout_marginBottom="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:padding="6dp">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+
+
+            <TextView
+                android:layout_weight="1"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="@string/app_name"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:id="@+id/tv_moviename"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13dp" />
+
+            <TextView
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textStyle="italic"
+                android:text="@string/app_name"
+                android:gravity="center_vertical"
+                android:id="@+id/tv_movietype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#bfbfbf" />
+
+            <TextView
+                android:id="@+id/tv_movieurl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_movieid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+</LinearLayout>
+            <ImageView
+                android:src="@drawable/ic_right"
+                android:layout_width="30dp"
+                android:layout_height="match_parent"/>
+            </LinearLayout>
+
+</LinearLayout>

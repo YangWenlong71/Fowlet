@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F5F5"
+    tools:context=".ui.SearchActivity">
+
+    <LinearLayout
+        android:background="#CCffffff"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:paddingRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            >
+
+        <ImageView
+            android:src="@drawable/ic_my"
+            android:id="@+id/iv_my"
+            android:padding="10dp"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"/>
+
+            <TextView
+                android:textColor="#525A65"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="UUid"
+                android:id="@+id/tv_uuid"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+
+            <ImageView
+                android:visibility="gone"
+                android:padding="10dp"
+                android:id="@+id/iv_clear_editview"
+                android:src="@drawable/ic_clear_circle_outlined"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"/>
+
+            <ImageView
+                android:visibility="gone"
+                android:padding="10dp"
+                android:id="@+id/iv_clear_history"
+                android:src="@drawable/ic_clear_history"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="3dp"
+        android:layout_weight="1"
+        app:cardPreventCornerOverlap="true"
+        >
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <ImageView
+            android:id="@+id/iv_menu"
+            android:padding="8dp"
+            android:src="@drawable/ic_menu"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"/>
+
+
+        <EditText
+            android:textSize="14dp"
+            android:gravity="center"
+            android:background="#ffffff"
+            android:hint="片名 / 关键字"
+            android:id="@+id/et_search"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:inputType="text"
+            android:imeOptions="actionSearch"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:padding="8dp"
+            android:src="@drawable/ic_search"
+            android:id="@+id/iv_search"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"/>
+
+
+
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#f5f5f5"
+        android:visibility="gone"
+        android:id="@+id/ll_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:listSelector="@android:color/transparent"
+            android:layout_weight="1"
+            android:id="@+id/lv_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:dividerHeight="1dp"></ListView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#F5F5F5"
+        android:id="@+id/ll_hint"
+        android:visibility="visible"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.fowlet.android.view.AutoNewLineLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="top"
+            android:id="@+id/anl_history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></com.fowlet.android.view.AutoNewLineLayout>
+
+        <TextView
+            android:id="@+id/tv_hint"
+            android:gravity="left"
+            android:textColor="#696969"
+            android:textSize="12dp"
+            android:text="\n\n\n《使用说明》\n\n\nAndroid端:\n1.点击左上角菜单，选择数据源\n2.搜索栏输入关键字，点击搜索\n\nWindows端:\n点击数据源，输入ID，点击确定\n\nTv端:\n使用本软件扫码TV端，手机输入ID;\nTv点击确定即可\n\n\n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="AutoNewLineLayout">
+        <attr name="horizontalSpace1" format="dimension|reference"/>
+
+        <attr name="vertivalSpace1" format="dimension|reference"/>
+    </declare-styleable>
+
+</resources>
