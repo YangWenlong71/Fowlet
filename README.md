@@ -3,10 +3,7 @@
 
 -软件截图-
 
-http://www.owlsmart.net/image/01.jpg
-http://www.owlsmart.net/image/02.jpg
-http://www.owlsmart.net/image/03.jpg
-http://www.owlsmart.net/image/04.jpg
+http://www.owlsmart.net/
    
 -更新日志-
 
