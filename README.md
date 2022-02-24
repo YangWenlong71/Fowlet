@@ -5,7 +5,7 @@
 
 -软件截图-
 
-| ![image](http://www.owlsmart.net/image/01.jpg)      | ![image](http://www.owlsmart.net/image/02.jpg)    | ![image](http://www.owlsmart.net/image/03.jpg)     |![image](http://www.owlsmart.net/image/04.jpg) ｜
+ ![image](http://www.owlsmart.net/image/01.jpg)  ![image](http://www.owlsmart.net/image/02.jpg)  ![image](http://www.owlsmart.net/image/03.jpg) ![image](http://www.owlsmart.net/image/04.jpg) 
 
 
 
